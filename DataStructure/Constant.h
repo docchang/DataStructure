@@ -91,12 +91,6 @@ static void append_format(std::string& str, const char *fmt, ...)
 
 
 
-
-
-
-
-
-
 // Macro Loops
 #define __VA_NARG__(...) \
 (__VA_NARG_(_0, ## __VA_ARGS__, __RSEQ_N()) - 1)

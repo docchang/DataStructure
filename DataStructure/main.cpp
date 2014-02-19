@@ -427,8 +427,10 @@ string generateCharacter(const unsigned int size) {
 }
 
 
-typedef vector<string> v_str;
-typedef v_str::iterator v_str_iter;
+#include "Typedef.h"
+
+//typedef vector<string> v_str;
+//typedef v_str::iterator v_str_iter;
 
 void testAnagramCompareSort() {
     
@@ -698,6 +700,8 @@ void testMultipleOf() {
 }
 
 
+#include "RPNEvaluate.h"
+
 int main(int argc, const char * argv[])
 {
     std::cout << DebugLog << "Hello, World!\n";
@@ -706,6 +710,7 @@ int main(int argc, const char * argv[])
     
     do {
         
+        RPNEvaluate::testRPNEvaluate();
         
 //        cout << determineMostFrequentLetter("Hello World 1 2 3 mah mah sooo") << endl;
     
@@ -713,7 +718,9 @@ int main(int argc, const char * argv[])
         
 //        testBSTValidation();
         
-        testBottomUpTraversal();
+//        testBottomUpTraversal();
+        
+        
         
 //        testHashTable();
         

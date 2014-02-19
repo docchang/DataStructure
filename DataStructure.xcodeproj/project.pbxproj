@@ -10,6 +10,7 @@
 		C809869F188F88E8005EDA3A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C809869E188F88E8005EDA3A /* main.cpp */; };
 		C80986A1188F88E8005EDA3A /* DataStructure.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C80986A0188F88E8005EDA3A /* DataStructure.1 */; };
 		C80986A9188F890B005EDA3A /* BinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C80986A7188F890B005EDA3A /* BinaryTree.cpp */; };
+		C8E3873B18B46B8300273E4A /* RPNEvaluate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8E3873918B46B8300273E4A /* RPNEvaluate.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,9 @@
 		C80986A7188F890B005EDA3A /* BinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTree.cpp; sourceTree = "<group>"; };
 		C80986A8188F890B005EDA3A /* BinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
 		C80986AA188F8C18005EDA3A /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		C8E3873918B46B8300273E4A /* RPNEvaluate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPNEvaluate.cpp; path = DataStructure/RPNEvaluate.cpp; sourceTree = "<group>"; };
+		C8E3873A18B46B8300273E4A /* RPNEvaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPNEvaluate.h; path = DataStructure/RPNEvaluate.h; sourceTree = "<group>"; };
+		C8E3873C18B46DD100273E4A /* Typedef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Typedef.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 		C8098692188F88E8005EDA3A = {
 			isa = PBXGroup;
 			children = (
+				C8E3873918B46B8300273E4A /* RPNEvaluate.cpp */,
+				C8E3873A18B46B8300273E4A /* RPNEvaluate.h */,
 				C809869D188F88E8005EDA3A /* DataStructure */,
 				C809869C188F88E8005EDA3A /* Products */,
 			);
@@ -65,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				C80986AA188F8C18005EDA3A /* Constant.h */,
+				C8E3873C18B46DD100273E4A /* Typedef.h */,
 				C80986A7188F890B005EDA3A /* BinaryTree.cpp */,
 				C80986A8188F890B005EDA3A /* BinaryTree.h */,
 				C809869E188F88E8005EDA3A /* main.cpp */,
@@ -124,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E3873B18B46B8300273E4A /* RPNEvaluate.cpp in Sources */,
 				C80986A9188F890B005EDA3A /* BinaryTree.cpp in Sources */,
 				C809869F188F88E8005EDA3A /* main.cpp in Sources */,
 			);
@@ -233,6 +241,7 @@
 				C80986A6188F88E8005EDA3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
