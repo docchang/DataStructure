@@ -702,6 +702,8 @@ void testMultipleOf() {
 
 #include "RPNEvaluate.h"
 
+#include "ArrayMinRange.h"
+
 int main(int argc, const char * argv[])
 {
     std::cout << DebugLog << "Hello, World!\n";
@@ -710,11 +712,13 @@ int main(int argc, const char * argv[])
     
     do {
         
-        RPNEvaluate::testRPNEvaluate();
+//        RPNEvaluate::testRPNEvaluate();
         
 //        cout << determineMostFrequentLetter("Hello World 1 2 3 mah mah sooo") << endl;
     
 //        testBinaryTree();
+        
+        ArrayMinRange::testArrayMinRange();
         
 //        testBSTValidation();
         

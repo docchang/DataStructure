@@ -33,6 +33,7 @@
 		C80986A7188F890B005EDA3A /* BinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTree.cpp; sourceTree = "<group>"; };
 		C80986A8188F890B005EDA3A /* BinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
 		C80986AA188F8C18005EDA3A /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		C879B07818BDB3D300636B19 /* ArrayMinRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayMinRange.h; sourceTree = "<group>"; };
 		C8E3873918B46B8300273E4A /* RPNEvaluate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPNEvaluate.cpp; path = DataStructure/RPNEvaluate.cpp; sourceTree = "<group>"; };
 		C8E3873A18B46B8300273E4A /* RPNEvaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPNEvaluate.h; path = DataStructure/RPNEvaluate.h; sourceTree = "<group>"; };
 		C8E3873C18B46DD100273E4A /* Typedef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Typedef.h; sourceTree = "<group>"; };
@@ -75,6 +76,7 @@
 				C80986A7188F890B005EDA3A /* BinaryTree.cpp */,
 				C80986A8188F890B005EDA3A /* BinaryTree.h */,
 				C809869E188F88E8005EDA3A /* main.cpp */,
+				C879B07818BDB3D300636B19 /* ArrayMinRange.h */,
 				C80986A0188F88E8005EDA3A /* DataStructure.1 */,
 			);
 			path = DataStructure;
