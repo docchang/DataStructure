@@ -704,6 +704,8 @@ void testMultipleOf() {
 
 #include "ArrayMinRange.h"
 
+#include "TopBox.h"
+
 int main(int argc, const char * argv[])
 {
     std::cout << DebugLog << "Hello, World!\n";
@@ -718,7 +720,9 @@ int main(int argc, const char * argv[])
     
 //        testBinaryTree();
         
-        ArrayMinRange::testArrayMinRange();
+//        ArrayMinRange::testArrayMinRange();
+        
+        TopBox::testTopBox();
         
 //        testBSTValidation();
         

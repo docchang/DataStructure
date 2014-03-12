@@ -161,7 +161,7 @@ public:
     
     static void testArrayMinRange() {
         
-        const int maxArray = 5;
+        const int maxArray = 6;
         
         const int maxNumber = 40;
         

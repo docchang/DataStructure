@@ -10,6 +10,7 @@
 		C809869F188F88E8005EDA3A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C809869E188F88E8005EDA3A /* main.cpp */; };
 		C80986A1188F88E8005EDA3A /* DataStructure.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C80986A0188F88E8005EDA3A /* DataStructure.1 */; };
 		C80986A9188F890B005EDA3A /* BinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C80986A7188F890B005EDA3A /* BinaryTree.cpp */; };
+		C85F0D2918D0207600FC2742 /* TopBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C85F0D2718D0207600FC2742 /* TopBox.cpp */; };
 		C8E3873B18B46B8300273E4A /* RPNEvaluate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8E3873918B46B8300273E4A /* RPNEvaluate.cpp */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,8 @@
 		C80986A7188F890B005EDA3A /* BinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTree.cpp; sourceTree = "<group>"; };
 		C80986A8188F890B005EDA3A /* BinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
 		C80986AA188F8C18005EDA3A /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		C85F0D2718D0207600FC2742 /* TopBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TopBox.cpp; sourceTree = "<group>"; };
+		C85F0D2818D0207600FC2742 /* TopBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopBox.h; sourceTree = "<group>"; };
 		C879B07818BDB3D300636B19 /* ArrayMinRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayMinRange.h; sourceTree = "<group>"; };
 		C8E3873918B46B8300273E4A /* RPNEvaluate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPNEvaluate.cpp; path = DataStructure/RPNEvaluate.cpp; sourceTree = "<group>"; };
 		C8E3873A18B46B8300273E4A /* RPNEvaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPNEvaluate.h; path = DataStructure/RPNEvaluate.h; sourceTree = "<group>"; };
@@ -71,6 +74,8 @@
 		C809869D188F88E8005EDA3A /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				C85F0D2718D0207600FC2742 /* TopBox.cpp */,
+				C85F0D2818D0207600FC2742 /* TopBox.h */,
 				C80986AA188F8C18005EDA3A /* Constant.h */,
 				C8E3873C18B46DD100273E4A /* Typedef.h */,
 				C80986A7188F890B005EDA3A /* BinaryTree.cpp */,
@@ -136,6 +141,7 @@
 				C8E3873B18B46B8300273E4A /* RPNEvaluate.cpp in Sources */,
 				C80986A9188F890B005EDA3A /* BinaryTree.cpp in Sources */,
 				C809869F188F88E8005EDA3A /* main.cpp in Sources */,
+				C85F0D2918D0207600FC2742 /* TopBox.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
